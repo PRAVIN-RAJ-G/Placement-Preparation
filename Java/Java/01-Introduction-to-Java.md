@@ -39,7 +39,6 @@ Java is a high-level, object-oriented, and platform-independent programming lang
 - Object-Oriented
 - Platform Independent
 - Secure
-- Robust
 
 ---
 
