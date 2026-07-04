@@ -16,4 +16,4 @@ This repository documents my learning journey, coding practice, technical notes,
 
 ---
 
-> **"Small progress every day leads to big results."** 🚀
+> **"Thoughts Becomes Things"** 🚀
