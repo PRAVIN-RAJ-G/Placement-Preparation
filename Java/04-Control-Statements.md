@@ -327,11 +327,3 @@ for(int i = 1; i <= 5; i++)
 - Jump → break, continue.
 
 ---
-
-# Interview Questions
-
-1. What is a control statement?
-2. How many types of control statements are there?
-3. Difference between `if` and `switch`?
-4. Difference between `while` and `do-while`?
-5. Difference between `break` and `continue`?
