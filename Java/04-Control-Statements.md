@@ -16,9 +16,9 @@ There are three types of control statements.
 
 ---
 
-# 1. Selection Statements
+# 1. Conditional Statements
 
-Selection statements are used to execute a block of code based on a condition.
+Conditional statements are used to execute a block of code based on a condition.
 
 Types of Selection Statements
 
