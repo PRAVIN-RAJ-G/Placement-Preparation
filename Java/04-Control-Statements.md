@@ -20,7 +20,7 @@ There are three types of control statements.
 
 Conditional statements are used to execute a block of code based on a condition.
 
-Types of Selection Statements
+Types of Conditional Statements
 
 - if
 - if-else
