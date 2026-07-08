@@ -10,7 +10,7 @@ A control statement is used to control the flow of program execution based on a 
 
 There are three types of control statements.
 
-1. Selection Statements
+1. Conditional Statements
 2. Iteration (Looping) Statements
 3. Jump Statements
 
