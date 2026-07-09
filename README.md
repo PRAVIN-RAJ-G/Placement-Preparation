@@ -16,4 +16,4 @@ This repository documents my learning journey, coding practice, technical notes,
 - 
 ---
 
-> **"Thoughts Becomes Things"** 
+> **"Thoughts Becomes Things"-Mike Dooley** 
