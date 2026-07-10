@@ -150,10 +150,3 @@ for(int i = 0; i < numbers.length; i++)
 
 ---
 
-# Interview Questions
-
-1. What is an array?
-2. Why do we use arrays?
-3. What is array indexing?
-4. Why does array indexing start from 0?
-5. What are the advantages and limitations of arrays?
