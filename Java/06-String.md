@@ -309,12 +309,3 @@ Pravin Raj
 - `+` → Used for String concatenation.
 
 ---
-
-# Interview Questions
-
-1. What is a String in Java?
-2. Why is String a non-primitive data type?
-3. Why are Strings immutable in Java?
-4. What is the difference between `==` and `equals()`?
-5. What is String concatenation?
-6. What is the difference between String literal and the `new` keyword?
