@@ -2,7 +2,7 @@
 
 Welcome to my placement preparation repository.
 
-This repository documents my learning journey, coding practice, technical notes, interview preparation, and project development as I work towards becoming a skilled Software Engineer.
+This repository documents my learning journey, technical notes, interview preparation, and project development as I work towards becoming a skilled Software Engineer.
 
 ---
 
