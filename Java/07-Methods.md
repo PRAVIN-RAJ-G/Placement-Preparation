@@ -26,7 +26,7 @@ greet();
 
 # Why do we use Methods?
 
-Methods are used to:
+Methods are mainly used to:
 
 - Avoid code repetition.
 - Reuse the same code multiple times.
