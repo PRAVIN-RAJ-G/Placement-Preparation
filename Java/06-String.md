@@ -297,6 +297,70 @@ Pravin Raj
 
 ---
 
+
+# StringBuilder and StringBuffer
+
+Since `String` is immutable, `StringBuilder` and `StringBuffer` are used when we need to modify a String multiple times.
+
+## StringBuilder
+
+`StringBuilder` is mutable, which means its content can be changed.
+
+It is faster but not thread-safe.
+
+### Example
+
+```java
+StringBuilder name = new StringBuilder("Java");
+
+name.append(" Programming");
+
+System.out.println(name);
+```
+
+### Output
+
+```text
+Java Programming
+```
+
+---
+
+## StringBuffer
+
+`StringBuffer` is also mutable.
+
+It is thread-safe but slower than `StringBuilder`.
+
+### Example
+
+```java
+StringBuffer name = new StringBuffer("Java");
+
+name.append(" Programming");
+
+System.out.println(name);
+```
+
+### Output
+
+```text
+Java Programming
+```
+
+---
+
+## Difference
+
+| String | StringBuilder | StringBuffer |
+|---|---|---|
+| Immutable | Mutable | Mutable |
+| Cannot modify the original object | Can modify the same object | Can modify the same object |
+| — | Faster | Slower |
+| — | Not thread-safe | Thread-safe |
+
+---
+
 # Quick Revision
 
 - String → Sequence of characters.
