@@ -98,4 +98,4 @@ It enables Java programs to run on different operating systems without changing 
 - JDK is used for development.
 - JRE is used for execution.
 
--- Next We can see about the Variables and Data-Types
+## Next We can see about the Variables and Data-Types
