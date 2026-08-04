@@ -262,3 +262,143 @@ Here,
 are Actual Arguments.
 
 ---
+
+
+---
+
+# Method Overloading
+
+## What is Method Overloading?
+
+Method Overloading is the process of creating multiple methods with the same name but different parameters in the same class.
+
+It is an example of **Compile-Time Polymorphism**.
+
+---
+
+## Why do we use Method Overloading?
+
+- Improves code readability.
+- Reduces the number of method names.
+- Performs similar operations using the same method name.
+- Increases code reusability.
+
+---
+
+## Rules of Method Overloading
+
+Methods can be overloaded by changing:
+
+- Number of parameters.
+- Data type of parameters.
+- Order of parameters.
+
+Changing only the return type is **not** Method Overloading.
+
+---
+
+## Example
+
+```java
+class Demo
+{
+    static void add(int a, int b)
+    {
+        System.out.println(a + b);
+    }
+
+    static void add(double a, double b)
+    {
+        System.out.println(a + b);
+    }
+
+    public static void main(String[] args)
+    {
+        add(10,20);
+        add(10.5,20.5);
+    }
+}
+```
+
+---
+
+# Method Overriding
+
+## What is Method Overriding?
+
+Method Overriding is the process of redefining a method of the parent class in the child class with the same method name and same parameters.
+
+It is an example of **Run-Time Polymorphism**.
+
+---
+
+## Why do we use Method Overriding?
+
+- To provide a specific implementation of a parent class method.
+- To achieve Runtime Polymorphism.
+- To support dynamic method dispatch.
+
+---
+
+## Rules of Method Overriding
+
+- Parent and Child classes are required.
+- Method name must be the same.
+- Parameters must be the same.
+- Return type must be the same (or covariant).
+- Access modifier cannot be more restrictive.
+
+---
+
+## Example
+
+```java
+class Animal
+{
+    void sound()
+    {
+        System.out.println("Animal makes sound");
+    }
+}
+
+class Dog extends Animal
+{
+    @Override
+    void sound()
+    {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Demo
+{
+    public static void main(String[] args)
+    {
+        Dog d = new Dog();
+        d.sound();
+    }
+}
+```
+
+---
+
+# Difference Between Method Overloading and Method Overriding
+
+| Method Overloading | Method Overriding |
+|--------------------|-------------------|
+| Same class | Parent and Child class |
+| Different parameters | Same parameters |
+| Compile-Time Polymorphism | Run-Time Polymorphism |
+| No inheritance required | Inheritance required |
+| Increases readability | Provides specific implementation |
+
+---
+
+# Quick Revision
+
+- Method Overloading → Same method name + Different parameters.
+- Method Overriding → Same method name + Same parameters + Inheritance.
+- Overloading → Compile-Time Polymorphism.
+- Overriding → Run-Time Polymorphism.
+
+---
