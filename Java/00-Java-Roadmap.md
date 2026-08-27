@@ -10,6 +10,6 @@
 - [✅] Strings
 - [✅] Methods
 - [✅] Object-Oriented Programming
-- [✅] Exception Handling
-- [✅] Multithreading
-- [✅] JDBC
+- [] Exception Handling
+- [] Multithreading
+- [] JDBC
