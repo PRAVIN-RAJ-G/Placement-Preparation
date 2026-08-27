@@ -28,7 +28,7 @@ The major advantage of encapsulation is **Data Hiding**.
 
 ### Data Hiding
 
-> The process of restricting direct access to data and providing controlled access through methods is called **Data Hiding**.
+> The process of restricting direct access to data and providing controlled access through helper methods(getter and setter) is called **Data Hiding**.
 
 We can achieve data hiding using the **`private` access modifier**.
 
